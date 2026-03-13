@@ -1,0 +1,22 @@
+1) Finalidade dos seguintes comandos:
+a) git init: cria um novo repositório Git na pasta atual para começar o controle de versões do projeto.
+b) git config --global user.name "turing": define o nome do usuário que será associado aos commits feitos no Git.
+c) git add EXERCICIO.txt: adiciona o arquivo EXERCICIO.txt para a área de preparação (staging), deixando ele pronto para ser commitado.
+d) git add .: adiciona todos os arquivos modificados ou novos da pasta atual para a área de preparação.
+e) git commit -m "Adicionado nova interface": salva as alterações no repositório com uma mensagem descrevendo o que foi feito.
+f) git commit: salva as alterações no repositório, mas abre o editor para escrever a mensagem do commit manualmente.
+g) git reset --hard HEAD: desfaz todas as alterações feitas e volta o projeto para o último commit salvo.
+h) cd Downloads: entra na pasta chamada Downloads.
+i) pwd: mostra o caminho completo da pasta atual no terminal.
+j) cd ..: volta para a pasta anterior (diretório pai).
+k) ls: lista os arquivos e pastas que estão no diretório atual.
+l) git pull: baixa as atualizações do repositório remoto e atualiza o repositório local.
+m) git push: envia os commits feitos no repositório local para o repositório remoto.
+n) git clone https://gitlab.com/rVenson/linguagemdeprogramacao: faz uma cópia de um repositório remoto para o computador.
+o) git diff: mostra as diferenças entre as alterações feitas nos arquivos e a última versão salva.
+p) git show: mostra informações detalhadas de um commit, como alterações feitas e autor.
+
+2) Descreva a função dos seguintes componentes do Git:
+a) Stage Area / Commit: A Stage Area é a área onde ficam os arquivos que foram adicionados com git add e estão prontos para serem salvos. Já o commit é o comando que registra definitivamente essas alterações no histórico do projeto.
+b) Local Repository: É o repositório que fica no computador do usuário, onde são feitas as alterações, commits e controle de versão do projeto localmente.
+c) Remote Repository: É o repositório que fica em um servidor na internet, como no GitHub ou GitLab, permitindo que várias pessoas acessem, compartilhem e atualizem o projeto.
